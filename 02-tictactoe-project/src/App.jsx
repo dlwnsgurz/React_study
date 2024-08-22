@@ -58,7 +58,6 @@ function getGameBoard(gameTurns){
 
 function App() {
 
-
   const [gameTurns, setGameTurns] = useState([])
   const [players, setPlayers] = useState({
     "X" : "Player1",
